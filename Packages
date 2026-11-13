@@ -1,0 +1,19 @@
+Package: com.xyrith.xrkit
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: xyrith
+Installed-Size: 3288
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.xyrith.xrkit_0.2.0_iphoneos-arm64e.deb
+Size: 169298
+MD5sum: de3833f0dcf1974a43f6af468ee46846
+SHA1: 301b7890030816613879df72f4e2c1be7841589d
+SHA256: c957fd5de799e85a8f123da09de83df06e4b97d28b552f6cf82383e1074fcf6d
+Section: Tweaks
+Description: iOS 17 综合优化插件（只在 iOS 17.3.1 上测试过，其他版本可能部分功能不生效；需要 roothide 越狱环境）
+Author: xyrith
+Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/
+Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png
+Name: xrkit
+Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/depiction.json
+

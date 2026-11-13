@@ -1,0 +1,21 @@
+Origin: xyrith
+Label: xyrith
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: xyrith 的插件（xrkit 等）
+Date: Fri, 13 Nov 2026 14:40:07 UTC
+MD5Sum:
+ 1491ec00c45aa8a5d65d1dfe275e7c53 839 Packages
+ a7118d90d36b5e18a076b1a1ded51ff1 639 Packages.bz2
+ ad6fad6a63239b4a04e41e9559c67c86 574 Packages.gz
+ cb0f557df09d1cb0aee054d565fdc9e0 604 Packages.xz
+ 7983a5c280384688eca706c876b48eb3 574 Packages.zst
+SHA256:
+ 53347031857e98da1a435601f0098fac9bf3ad96b31c2a5624a2852bd3359fb5 839 Packages
+ 51cac7ee09d479e8ffbb28e9eef8e8540bc56439c289b05b5f76d065abfa2a7a 639 Packages.bz2
+ f271d9f387475df0cd6f65da2c7c9a1303c8ce9ab064b55f01d64c5e7cd34dbb 574 Packages.gz
+ 5d196f2e3e7d4640243defa46d41a45e2fa85e22c101351927e3bcd60e17c94a 604 Packages.xz
+ 1742263b96859d338563d0b7dc09eb40aaf57696c383a73c6ca4a443cd45dfd6 574 Packages.zst
