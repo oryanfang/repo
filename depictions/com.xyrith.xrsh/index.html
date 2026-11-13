@@ -1,13 +1,38 @@
-<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>xrsh</title><style>
 body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7;color:#111}
 @media(prefers-color-scheme:dark){body{background:#000;color:#eee}.card{background:#1c1c1e!important}}
 .card{background:#fff;border-radius:12px;padding:12px 16px;margin-bottom:12px}h3{margin:12px 0 4px}ul{padding-left:20px;margin:4px 0}
 .head{display:flex;align-items:center;gap:12px}.head img{width:60px;height:60px;border-radius:13px}a{color:#3B82F6}
 .shots{display:flex;gap:8px;overflow-x:auto}.shots img{width:30%;min-width:120px;border-radius:10px}</style></head><body>
-<div class="card head"><img src="icon.png" alt=""><div><b>xrsh</b> 1.1<br><small>iOS 上轻量的 SSH 终端与局域网设备扫描工具</small></div></div>
-<div class="card shots"><img src="zh-devices.png" alt="设备页"><img src="terminal.png" alt="终端"><img src="zh-settings.png" alt="设置页"></div>
-<div class="card"><h3>设备页</h3>
+<div class="card head"><img src="icon.png" alt=""><div><b>xrsh</b> 1.1<br><small>A lightweight SSH client and LAN scanner for iOS</small></div></div>
+<div class="card shots"><img src="en-devices.png" alt="Devices"><img src="terminal.png" alt="Terminal"><img src="en-settings.png" alt="Settings"></div>
+<div class="card"><p>A lightweight SSH client and LAN scanner for iOS: scan your Wi‑Fi, tap a device, and you&#x27;re in a terminal. On jailbroken devices the local terminal is a real shell.</p><h3>Devices</h3>
+<ul>
+<li>Scans the current subnet for SSH devices, with device names and guessed types (Mac, Windows, Raspberry Pi, router…)</li>
+<li>Remembers the last scan; long‑press to name a device, copy its IP or connect</li>
+<li>Devices with passwordless login go straight to the terminal</li>
+</ul>
+<h3>Terminal</h3>
+<ul>
+<li>SSH terminal with password or key login; host keys are remembered</li>
+<li>One‑tap passwordless login (ed25519; the private key stays in the Keychain)</li>
+<li>Local terminal: a real shell on jailbroken devices</li>
+<li>Command panel and SFTP file transfer</li>
+</ul>
+<h3>AI assistant (optional, off by default)</h3>
+<ul>
+<li>Type /xr in a terminal to talk to an AI using your own OpenAI‑compatible API</li>
+<li>Read‑only commands run on their own, changes ask first, destructive commands are blocked</li>
+</ul>
+<p>The UI is in English, Chinese, Japanese and Russian.</p></div>
+<div class="card"><ul>
+<li>Only tested on a roothide‑jailbroken iPhone. The rootless package is the same app in a different location and hasn&#x27;t been tested on a device</li>
+<li>If you installed xrsh with TrollStore before, uninstall it there first (it&#x27;s the same app; both at once will conflict)</li>
+<li>Allow the Local Network permission on first launch, or no devices can be found</li>
+<li>License: PolyForm Noncommercial 1.0.0 (free for personal, noncommercial use)</li>
+</ul></div>
+<div class="card"><h3>中文</h3><p>iOS 上轻量的 SSH 终端与局域网设备扫描工具：扫描 Wi‑Fi，点一下设备就进终端。越狱环境下本机终端是真 shell。</p><h3>设备页</h3>
 <ul>
 <li>扫描当前 Wi‑Fi 网段，找出 SSH 设备，显示设备名和推测的类型（Mac、Windows、树莓派、路由器等）</li>
 <li>记住上次扫描结果；长按设备可以起名、复制 IP、SSH 连接</li>
@@ -25,12 +50,22 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 <li>在终端输入 /xr 和 AI 对话，用你自己的 OpenAI 兼容接口</li>
 <li>只读命令自动运行，会改动设备的命令先问你，危险命令直接禁止</li>
 </ul>
-<p>界面有中文、英文、日语和俄语。</p></div>
-<div class="card"><ul>
+<p>界面有中文、英文、日语和俄语。</p><ul>
 <li>只在 roothide 越狱的 iPhone 上测过；rootless 版是同一个 App，装的位置不同，没有在真机上测过</li>
 <li>如果之前用 TrollStore 装过 xrsh，请先在 TrollStore 里卸载，再从这里安装（两个是同一个 App，同时装会冲突）</li>
 <li>首次打开要允许「本地网络」权限，否则扫描不到设备</li>
 <li>许可：PolyForm Noncommercial 1.0.0（可以个人非商业使用）</li>
 </ul></div>
-<div class="card"><a href="https://github.com/oryanfang/xrsh-ios">源代码</a> · <a href="https://github.com/oryanfang/xrsh-ios/issues">反馈问题</a></div>
+<div class="card"><h3>Changelog · 更新日志</h3><h3>1.1</h3><ul>
+<li>AI assistant (optional, off by default): type /xr in a terminal</li>
+<li>Japanese and Russian</li>
+<li>Optional extras: tmux after SSH connects, device tools, saved connections</li>
+<li>Fixes: Chinese input in the real shell, terminal text squeezed into two columns, Local Network prompt language</li>
+</ul><ul>
+<li>AI 助手（可选，默认关闭）：终端里输入 /xr 对话</li>
+<li>新增日语和俄语</li>
+<li>可选功能：SSH 连上后进入 tmux、设备小工具、常用连接</li>
+<li>修复：本机真 shell 中文输入、终端文字被挤成两列、「本地网络」权限提示的语言</li>
+</ul><h3>1.0</h3><p>First release.</p><p>第一个版本。</p></div>
+<div class="card"><a href="https://github.com/oryanfang/xrsh-ios">Source Code · 源代码</a> · <a href="https://github.com/oryanfang/xrsh-ios/issues">Report an Issue · 反馈问题</a></div>
 </body></html>

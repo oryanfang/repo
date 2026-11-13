@@ -42,12 +42,12 @@ Architecture: iphoneos-arm64e
 Maintainer: xyrith
 Depends: firmware (>= 17.0)
 Filename: debs/com.xyrith.xrsh_1.1_iphoneos-arm64e.deb
-Size: 3777692
-MD5sum: 5692c716207043bf5bfbdda506540e8e
-SHA1: aeaf1b483dcda8ce2534499b806eb150eb62c66a
-SHA256: 71f5ee9ba2122ee302f7c17d0a2e7ce7d04ce9ac8676e83f871230a1eb1c8dfc
+Size: 3777336
+MD5sum: 6b45f7c1ffbb3e706f1bfe721bdd376a
+SHA1: ea0bc726a94d533b9d5e334efaea66140476d18b
+SHA256: 5606f45907457017cff0d700153ad194509861f69d117d33765e444769f4bb5d
 Section: Networking
-Description: iOS 上轻量的 SSH 终端与局域网设备扫描工具。越狱版本机终端是真 shell。需要 iOS 17 或更高版本。
+Description: Lightweight SSH client and LAN scanner for iOS, with a real shell on jailbroken devices. Requires iOS 17 or later.
 Author: xyrith
 Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/
 Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/icon.png
@@ -60,12 +60,12 @@ Architecture: iphoneos-arm64
 Maintainer: xyrith
 Depends: firmware (>= 17.0)
 Filename: debs/com.xyrith.xrsh_1.1_iphoneos-arm64.deb
-Size: 3777448
-MD5sum: 32ee8f8eb63113238fa652f0b50b2b31
-SHA1: d07107cadf5ce2f9dbf3df376fb3cada7c6615e9
-SHA256: 28639b5947ae41903cb9b88098aa8d8d86cd8bea53f6dde0b9fa0aed6406e930
+Size: 3776816
+MD5sum: ce935b770a795c91d2a3c1852526262a
+SHA1: c4be85ad3364c4987166b8022fead7f30f0d5129
+SHA256: 5df200851caff39554cdbcb289fe6204fe9e16cb2508020b1d2d17fd1950f23a
 Section: Networking
-Description: iOS 上轻量的 SSH 终端与局域网设备扫描工具。越狱版本机终端是真 shell。需要 iOS 17 或更高版本。
+Description: Lightweight SSH client and LAN scanner for iOS, with a real shell on jailbroken devices. Requires iOS 17 or later.
 Author: xyrith
 Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/
 Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/icon.png

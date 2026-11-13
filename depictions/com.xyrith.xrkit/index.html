@@ -1,18 +1,48 @@
-<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>xrkit</title><style>
 body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7;color:#111}
 @media(prefers-color-scheme:dark){body{background:#000;color:#eee}.card{background:#1c1c1e!important}}
 .card{background:#fff;border-radius:12px;padding:12px 16px;margin-bottom:12px}h3{margin:12px 0 4px}ul{padding-left:20px;margin:4px 0}
-.head{display:flex;align-items:center;gap:12px}.head img{width:60px;height:60px;border-radius:13px}a{color:#3b8f6c}</style></head><body>
-<div class="card head"><img src="icon.png" alt=""><div><b>xrkit</b> 0.2.1<br><small>iOS 17 越狱综合优化插件</small></div></div>
-<div class="card"><p><b>只在 iOS 17.3.1 上测试过</b>，其他版本可能部分功能不生效。需要 <b>roothide</b> 越狱环境。设置页有中文和英文，可以在「关于 › 语言」里切换。</p></div>
-<div class="card"><h3>主屏幕</h3>
+.head{display:flex;align-items:center;gap:12px}.head img{width:60px;height:60px;border-radius:13px}a{color:#6FB596}
+.shots{display:flex;gap:8px;overflow-x:auto}.shots img{width:30%;min-width:120px;border-radius:10px}</style></head><body>
+<div class="card head"><img src="icon.png" alt=""><div><b>xrkit</b> 0.2.1<br><small>All‑in‑one tweak for jailbroken iOS 17</small></div></div>
+
+<div class="card"><p>All‑in‑one tweak for jailbroken iOS 17: Home Screen, Lock Screen, Control Center and the App Switcher, each change behind its own switch.</p><h3>Home Screen</h3>
+<ul>
+<li>Hide the home bar, Today view, App Library, page dots, Search button, icon labels, notification badges</li>
+<li>Folders: hide the background, or show the folder as its first app&#x27;s icon</li>
+<li>Dock: hide it, background style, icon count (3–6)</li>
+<li>Icons: badges in the app&#x27;s own color, download percentage, fade when idle</li>
+<li>Screenshots: skip the corner thumbnail</li>
+</ul>
+<h3>Lock Screen</h3>
+<ul>
+<li>Hide the flashlight / camera buttons, &quot;Swipe up to open&quot; and the Control Center hint</li>
+<li>Disable the camera swipe and pull‑down search</li>
+<li>Go straight to the Home Screen after Face ID</li>
+<li>Battery percentage while charging, Now Playing options</li>
+</ul>
+<h3>Control Center</h3>
+<ul>
+<li>Background / module transparency, corner radius, hide the status bar, slider percentages</li>
+<li>Module loader (a CCSupport replacement): third‑party modules, and fixed modules can be moved and removed</li>
+<li>Built‑in modules: respring, lock, screenshot, auto‑brightness, clear apps, xrkit settings, VPN (long‑press to switch), dark mode, Night Shift, True Tone, keep awake, hotspot, location, network speed, battery info</li>
+</ul>
+<h3>App Switcher</h3>
+<ul>
+<li>Layout: system / grid / iPad</li>
+<li>Hide titles and icons, long‑press to lock apps, pull down to clear all</li>
+<li>Card size, corners, spacing, position</li>
+</ul>
+<p>Settings live in Settings › xrkit; some options need a respring.</p></div>
+<div class="card"><p><b>Only tested on iOS 17.3.1</b>; some features may not work on other versions. Requires a <b>roothide</b> jailbreak. The settings are in English and Chinese (About › Language).</p></div>
+<div class="card"><h3>中文</h3><p>iOS 17 越狱综合优化插件：主屏幕、锁屏、控制中心、多任务，一个插件里按需开关。</p><h3>主屏幕</h3>
 <ul>
 <li>隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标</li>
 <li>文件夹：隐藏背景、文件夹图标显示第一个 App 的图标</li>
 <li>Dock：隐藏、背景样式、图标数量（3～6 个）</li>
 <li>图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明</li>
-<li>截图：不显示左下角预览，直接存相册</li>
+<li>截图：不显示左下角预览</li>
 </ul>
 <h3>锁屏</h3>
 <ul>
@@ -33,6 +63,15 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 <li>隐藏卡片名称和图标、长按锁定 App、下拉清除全部</li>
 <li>卡片大小、圆角、间距、上下位置</li>
 </ul>
-<p>设置在「设置 › xrkit」，部分选项需要注销才生效。</p></div>
-<div class="card"><a href="https://github.com/oryanfang/xrkit">源代码</a> · <a href="https://github.com/oryanfang/xrkit/issues">反馈问题</a></div>
+<p>设置在「设置 › xrkit」，部分选项需要注销才生效。</p><p><b>只在 iOS 17.3.1 上测试过</b>，其他版本可能部分功能不生效。需要 <b>roothide</b> 越狱环境。设置页有中文和英文（关于 › 语言）。</p></div>
+<div class="card"><h3>Changelog · 更新日志</h3><h3>0.2.1</h3><ul>
+<li>English settings, following the system language</li>
+<li>About › Language: System / 中文 / English, no respring needed</li>
+<li>&quot;Copy Debug Info&quot; is now always in English</li>
+</ul><ul>
+<li>设置页、弹窗和「需注销」标签有了英文，跟随系统语言</li>
+<li>关于页加「语言」：跟随系统 / 中文 / English，马上生效，不用注销</li>
+<li>「复制问题信息」统一用英文，方便贴进 GitHub Issue</li>
+</ul><h3>0.2.0</h3><p>First public release.</p><p>第一个公开版本。</p></div>
+<div class="card"><a href="https://github.com/oryanfang/xrkit">Source Code · 源代码</a> · <a href="https://github.com/oryanfang/xrkit/issues">Report an Issue · 反馈问题</a></div>
 </body></html>

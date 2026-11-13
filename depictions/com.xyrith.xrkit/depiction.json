@@ -2,10 +2,63 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#6FB596",
- "headerImage": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png",
  "tabs": [
   {
-   "tabname": "详情",
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "All‑in‑one tweak for jailbroken iOS 17: Home Screen, Lock Screen, Control Center and the App Switcher, each change behind its own switch."
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Home Screen**\n- Hide the home bar, Today view, App Library, page dots, Search button, icon labels, notification badges\n- Folders: hide the background, or show the folder as its first app's icon\n- Dock: hide it, background style, icon count (3–6)\n- Icons: badges in the app's own color, download percentage, fade when idle\n- Screenshots: skip the corner thumbnail\n\n**Lock Screen**\n- Hide the flashlight / camera buttons, \"Swipe up to open\" and the Control Center hint\n- Disable the camera swipe and pull‑down search\n- Go straight to the Home Screen after Face ID\n- Battery percentage while charging, Now Playing options\n\n**Control Center**\n- Background / module transparency, corner radius, hide the status bar, slider percentages\n- Module loader (a CCSupport replacement): third‑party modules, and fixed modules can be moved and removed\n- Built‑in modules: respring, lock, screenshot, auto‑brightness, clear apps, xrkit settings, VPN (long‑press to switch), dark mode, Night Shift, True Tone, keep awake, hotspot, location, network speed, battery info\n\n**App Switcher**\n- Layout: system / grid / iPad\n- Hide titles and icons, long‑press to lock apps, pull down to clear all\n- Card size, corners, spacing, position\n\nSettings live in Settings › xrkit; some options need a respring."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "> **Only tested on iOS 17.3.1**; some features may not work on other versions. Requires a **roothide** jailbreak. The settings are in English and Chinese (About › Language)."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "0.2.1"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Supported iOS",
+     "text": "iOS 17 (tested on 17.3.1)"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Jailbreak",
+     "text": "roothide"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Author",
+     "text": "xyrith"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Source Code",
+     "action": "https://github.com/oryanfang/xrkit"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Report an Issue",
+     "action": "https://github.com/oryanfang/xrkit/issues"
+    }
+   ]
+  },
+  {
+   "tabname": "中文",
    "class": "DepictionStackView",
    "views": [
     {
@@ -14,18 +67,14 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "> **只在 iOS 17.3.1 上测试过**，其他版本可能部分功能不生效。需要 **roothide** 越狱环境。"
+     "markdown": "**主屏幕**\n- 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标\n- 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标\n- Dock：隐藏、背景样式、图标数量（3～6 个）\n- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明\n- 截图：不显示左下角预览\n\n**锁屏**\n- 隐藏手电筒 / 相机按钮、「上滑打开」、右上角控制中心提示条\n- 禁止左滑打开相机、禁止下滑搜索\n- 面容识别后直接进主屏幕\n- 充电时显示电量、音乐播放器显示方式\n\n**控制中心**\n- 背景 / 模块透明度、模块圆角、隐藏状态栏、亮度和音量显示百分比\n- 模块加载器（可替代 CCSupport）：加载第三方模块，原本固定的模块也能移动、删除\n- 自带模块：注销、锁屏、截屏、自动亮度、清除后台、xrkit 设置、VPN（长按切换）、深色模式、夜览、原彩、常亮、个人热点、定位、实时网速、电池信息\n\n**多任务**\n- 排列样式：系统 / 网格 / iPad\n- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部\n- 卡片大小、圆角、间距、上下位置\n\n设置在「设置 › xrkit」，部分选项需要注销才生效。"
     },
     {
      "class": "DepictionSeparatorView"
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "**主屏幕**\n- 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标\n- 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标\n- Dock：隐藏、背景样式、图标数量（3～6 个）\n- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明\n- 截图：不显示左下角预览，直接存相册\n\n**锁屏**\n- 隐藏手电筒 / 相机按钮、「上滑打开」、右上角控制中心提示条\n- 禁止左滑打开相机、禁止下滑搜索\n- 面容识别后直接进主屏幕\n- 充电时显示电量、音乐播放器显示方式\n\n**控制中心**\n- 背景 / 模块透明度、模块圆角、隐藏状态栏、亮度和音量显示百分比\n- 模块加载器（可替代 CCSupport）：加载第三方模块，原本固定的模块也能移动、删除\n- 自带模块：注销、锁屏、截屏、自动亮度、清除后台、xrkit 设置、VPN（长按切换）、深色模式、夜览、原彩、常亮、个人热点、定位、实时网速、电池信息\n\n**多任务**\n- 排列样式：系统 / 网格 / iPad\n- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部\n- 卡片大小、圆角、间距、上下位置\n\n设置在「设置 › xrkit」，部分选项需要注销才生效。"
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "设置页有中文和英文：默认跟随系统语言，也可以在「关于 › 语言」里选。"
+     "markdown": "> **只在 iOS 17.3.1 上测试过**，其他版本可能部分功能不生效。需要 **roothide** 越狱环境。设置页有中文和英文（关于 › 语言）。"
     },
     {
      "class": "DepictionSeparatorView"
@@ -63,7 +112,7 @@
    ]
   },
   {
-   "tabname": "更新日志",
+   "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
     {
@@ -73,7 +122,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- 设置页、弹窗和「需注销」标签有了英文，跟随系统语言\n- 关于页加「语言」：跟随系统 / 中文 / English，马上生效，不用注销\n- 「复制问题信息」统一用英文，方便贴进 GitHub Issue"
+     "markdown": "- English settings, following the system language\n- About › Language: System / 中文 / English, no respring needed\n- \"Copy Debug Info\" is now always in English\n\n- 设置页、弹窗和「需注销」标签有了英文，跟随系统语言\n- 关于页加「语言」：跟随系统 / 中文 / English，马上生效，不用注销\n- 「复制问题信息」统一用英文，方便贴进 GitHub Issue"
     },
     {
      "class": "DepictionSubheaderView",
@@ -82,7 +131,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "第一个公开版本。"
+     "markdown": "First public release.\n\n第一个公开版本。"
     }
    ]
   }
