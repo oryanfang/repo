@@ -24,12 +24,16 @@
      "markdown": "**主屏幕**\n- 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标\n- 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标\n- Dock：隐藏、背景样式、图标数量（3～6 个）\n- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明\n- 截图：不显示左下角预览，直接存相册\n\n**锁屏**\n- 隐藏手电筒 / 相机按钮、「上滑打开」、右上角控制中心提示条\n- 禁止左滑打开相机、禁止下滑搜索\n- 面容识别后直接进主屏幕\n- 充电时显示电量、音乐播放器显示方式\n\n**控制中心**\n- 背景 / 模块透明度、模块圆角、隐藏状态栏、亮度和音量显示百分比\n- 模块加载器（可替代 CCSupport）：加载第三方模块，原本固定的模块也能移动、删除\n- 自带模块：注销、锁屏、截屏、自动亮度、清除后台、xrkit 设置、VPN（长按切换）、深色模式、夜览、原彩、常亮、个人热点、定位、实时网速、电池信息\n\n**多任务**\n- 排列样式：系统 / 网格 / iPad\n- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部\n- 卡片大小、圆角、间距、上下位置\n\n设置在「设置 › xrkit」，部分选项需要注销才生效。"
     },
     {
+     "class": "DepictionMarkdownView",
+     "markdown": "设置页有中文和英文：默认跟随系统语言，也可以在「关于 › 语言」里选。"
+    },
+    {
      "class": "DepictionSeparatorView"
     },
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.2.0"
+     "text": "0.2.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -62,6 +66,15 @@
    "tabname": "更新日志",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.2.1",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 设置页、弹窗和「需注销」标签有了英文，跟随系统语言\n- 关于页加「语言」：跟随系统 / 中文 / English，马上生效，不用注销\n- 「复制问题信息」统一用英文，方便贴进 GitHub Issue"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.2.0",

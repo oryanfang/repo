@@ -17,6 +17,25 @@ Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png
 Name: xrkit
 Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/depiction.json
 
+Package: com.xyrith.xrkit
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Maintainer: xyrith
+Installed-Size: 3308
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.xyrith.xrkit_0.2.1_iphoneos-arm64e.deb
+Size: 175374
+MD5sum: ecd878fb7eeb5eca15a73f5b23b3359c
+SHA1: df4231f2a0fda3e2b7eed5be5ff6cf2f703e635f
+SHA256: 4560eaa2b09245175d55206775db6b049df649e61f709834b5fe480f6316bdcc
+Section: Tweaks
+Description: iOS 17 综合优化插件（只在 iOS 17.3.1 上测试过，其他版本可能部分功能不生效；需要 roothide 越狱环境）
+Author: xyrith
+Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/
+Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png
+Name: xrkit
+Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/depiction.json
+
 Package: com.xyrith.xrsh
 Version: 1.1
 Architecture: iphoneos-arm64e
