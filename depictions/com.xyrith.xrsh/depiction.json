@@ -1,0 +1,104 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#3B82F6",
+ "tabs": [
+  {
+   "tabname": "详情",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "iOS 上轻量的 SSH 终端与局域网设备扫描工具：扫描 Wi‑Fi，点一下设备就进终端。越狱环境下本机终端是真 shell。"
+    },
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 12,
+     "itemSize": "{160, 347}",
+     "screenshots": [
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/zh-devices.png",
+       "accessibilityText": "设备页"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/terminal.png",
+       "accessibilityText": "终端"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrsh/zh-settings.png",
+       "accessibilityText": "设置页"
+      }
+     ]
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**设备页**\n- 扫描当前 Wi‑Fi 网段，找出 SSH 设备，显示设备名和推测的类型（Mac、Windows、树莓派、路由器等）\n- 记住上次扫描结果；长按设备可以起名、复制 IP、SSH 连接\n- 设置过免密登录的设备点一下直接进终端\n\n**终端页**\n- SSH 终端，支持密码和密钥登录，记住主机密钥\n- 一键设置免密登录（ed25519 密钥，私钥存在系统钥匙串）\n- 本机终端：越狱环境下是真 shell\n- 常用命令面板、SFTP 传文件\n\n**AI 助手（可选，默认关闭）**\n- 在终端输入 `/xr` 和 AI 对话，用你自己的 OpenAI 兼容接口\n- 只读命令自动运行，会改动设备的命令先问你，危险命令直接禁止\n\n界面有中文、英文、日语和俄语。"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 只在 roothide 越狱的 iPhone 上测过；rootless 版是同一个 App，装的位置不同，没有在真机上测过\n- 如果之前用 TrollStore 装过 xrsh，请先在 TrollStore 里卸载，再从这里安装（两个是同一个 App，同时装会冲突）\n- 首次打开要允许「本地网络」权限，否则扫描不到设备\n- 许可：PolyForm Noncommercial 1.0.0（可以个人非商业使用）"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本",
+     "text": "1.1"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "适用系统",
+     "text": "iOS 17 或更高"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "越狱环境",
+     "text": "roothide（rootless 未测）"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "作者",
+     "text": "xyrith"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "源代码",
+     "action": "https://github.com/oryanfang/xrsh-ios"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "反馈问题",
+     "action": "https://github.com/oryanfang/xrsh-ios/issues"
+    }
+   ]
+  },
+  {
+   "tabname": "更新日志",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "1.1",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- AI 助手（可选，默认关闭）：终端里输入 `/xr` 对话\n- 新增日语和俄语\n- 可选功能：SSH 连上后进入 tmux、设备小工具、常用连接\n- 修复：本机真 shell 中文输入、终端文字被挤成两列、「本地网络」权限提示的语言"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "1.0",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "第一个版本。"
+    }
+   ]
+  }
+ ]
+}
