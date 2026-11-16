@@ -13,7 +13,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "**Home Screen**\n- Hide the home bar, Today view, App Library, page dots, Search button, icon labels, notification badges\n- Folders: hide the background, or show the folder as its first app's icon\n- Dock: hide it, background style, icon count (3–6)\n- Icons: badges in the app's own color, download percentage, fade when idle\n- Screenshots: skip the corner thumbnail\n\n**Lock Screen**\n- Hide the flashlight / camera buttons, \"Swipe up to open\" and the Control Center hint\n- Disable the camera swipe and pull‑down search\n- Go straight to the Home Screen after Face ID\n- Battery percentage while charging, Now Playing options\n\n**Control Center**\n- Background / module transparency, corner radius, hide the status bar, slider percentages\n- Module loader (a CCSupport replacement): third‑party modules, and fixed modules can be moved and removed\n- Built‑in modules: respring, lock, screenshot, auto‑brightness, clear apps, xrkit settings, VPN (long‑press to switch), dark mode, Night Shift, True Tone, keep awake, hotspot, location, network speed, battery info\n\n**App Switcher**\n- Layout: system / grid / iPad\n- Hide titles and icons, long‑press to lock apps, pull down to clear all\n- Card size, corners, spacing, position\n\nSettings live in Settings › xrkit; some options need a respring."
+     "markdown": "**Home Screen**\n- Hide the home bar, Today view, App Library, page dots, Search button, icon labels, notification badges\n- Folders: hide the background, or show the folder as its first app's icon\n- Layout: up to 6 columns and 8 rows per page; hide \"+\" and \"Done\" while editing\n- Dock: hide it, background style, icon count (3–6)\n- Icon menu: Copy Bundle ID, Force Quit, Relaunch\n- Icons: badges in the app's own color, download percentage, fade when idle, haptic on tap\n- Screenshots: skip the corner thumbnail\n\n**Lock Screen**\n- Hide the flashlight / camera buttons, \"Swipe up to open\" and the Control Center hint\n- Disable the camera swipe and pull‑down search\n- Go straight to the Home Screen after Face ID\n- Battery percentage while charging, Now Playing options\n\n**Control Center**\n- Background / module transparency, corner radius, hide the status bar, slider percentages\n- Module loader (a CCSupport replacement): third‑party modules, and fixed modules can be moved and removed\n- Built‑in modules: respring, lock, screenshot, auto‑brightness, clear apps, xrkit settings, VPN (long‑press to switch), dark mode, Night Shift, True Tone, keep awake, hotspot, location, network speed, battery info\n\n**App Switcher**\n- Layout: system / grid / iPad\n- Hide titles and icons, long‑press to lock apps, pull down to clear all, memory usage on each card\n- Card size, corners, spacing, position\n\nSettings live in Settings › xrkit; some options need a respring."
     },
     {
      "class": "DepictionSeparatorView"
@@ -28,7 +28,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.2.1"
+     "text": "0.2.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -67,7 +67,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "**主屏幕**\n- 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标\n- 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标\n- Dock：隐藏、背景样式、图标数量（3～6 个）\n- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明\n- 截图：不显示左下角预览\n\n**锁屏**\n- 隐藏手电筒 / 相机按钮、「上滑打开」、右上角控制中心提示条\n- 禁止左滑打开相机、禁止下滑搜索\n- 面容识别后直接进主屏幕\n- 充电时显示电量、音乐播放器显示方式\n\n**控制中心**\n- 背景 / 模块透明度、模块圆角、隐藏状态栏、亮度和音量显示百分比\n- 模块加载器（可替代 CCSupport）：加载第三方模块，原本固定的模块也能移动、删除\n- 自带模块：注销、锁屏、截屏、自动亮度、清除后台、xrkit 设置、VPN（长按切换）、深色模式、夜览、原彩、常亮、个人热点、定位、实时网速、电池信息\n\n**多任务**\n- 排列样式：系统 / 网格 / iPad\n- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部\n- 卡片大小、圆角、间距、上下位置\n\n设置在「设置 › xrkit」，部分选项需要注销才生效。"
+     "markdown": "**主屏幕**\n- 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标\n- 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标\n- 布局：每页最多 6 列、8 行；编辑时隐藏「+」和「完成」\n- Dock：隐藏、背景样式、图标数量（3～6 个）\n- 长按图标菜单：复制 Bundle ID、强制退出、重新打开\n- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明、点按时震动\n- 截图：不显示左下角预览\n\n**锁屏**\n- 隐藏手电筒 / 相机按钮、「上滑打开」、右上角控制中心提示条\n- 禁止左滑打开相机、禁止下滑搜索\n- 面容识别后直接进主屏幕\n- 充电时显示电量、音乐播放器显示方式\n\n**控制中心**\n- 背景 / 模块透明度、模块圆角、隐藏状态栏、亮度和音量显示百分比\n- 模块加载器（可替代 CCSupport）：加载第三方模块，原本固定的模块也能移动、删除\n- 自带模块：注销、锁屏、截屏、自动亮度、清除后台、xrkit 设置、VPN（长按切换）、深色模式、夜览、原彩、常亮、个人热点、定位、实时网速、电池信息\n\n**多任务**\n- 排列样式：系统 / 网格 / iPad\n- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部、卡片上显示内存占用\n- 卡片大小、圆角、间距、上下位置\n\n设置在「设置 › xrkit」，部分选项需要注销才生效。"
     },
     {
      "class": "DepictionSeparatorView"
@@ -82,7 +82,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.2.1"
+     "text": "0.2.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -115,6 +115,15 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.2.2",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- New icon\n- Home Screen layout: up to 6 columns and 8 rows per page\n- Hide \"+\" and \"Done\" while editing the Home Screen\n- Icon menu: Copy Bundle ID, Force Quit, Relaunch\n- Haptic on tap\n- Memory usage on App Switcher cards\n\n- 新图标\n- 主屏幕布局：每页最多 6 列、8 行\n- 编辑主屏幕时隐藏「+」和「完成」\n- 长按图标菜单：复制 Bundle ID、强制退出、重新打开\n- 点按图标时震动\n- 多任务卡片显示内存占用"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.2.1",

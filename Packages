@@ -36,6 +36,25 @@ Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png
 Name: xrkit
 Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/depiction.json
 
+Package: com.xyrith.xrkit
+Version: 0.2.2
+Architecture: iphoneos-arm64e
+Maintainer: xyrith
+Installed-Size: 3376
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.xyrith.xrkit_0.2.2_iphoneos-arm64e.deb
+Size: 187328
+MD5sum: e584cfec5b47b25ee438c557e101e899
+SHA1: e047599167d1c8fe7a2705cbba0e29ef69eec151
+SHA256: 38e6df669edbff59128cb5ffd0e0be13527178881d848105189917341f5a9bbd
+Section: Tweaks
+Description: All-in-one tweak for iOS 17: Home Screen, Lock Screen, Control Center and App Switcher. Only tested on iOS 17.3.1; requires a roothide jailbreak.
+Author: xyrith
+Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/
+Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/icon.png
+Name: xrkit
+Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrkit/depiction.json
+
 Package: com.xyrith.xrsh
 Version: 1.1
 Architecture: iphoneos-arm64e

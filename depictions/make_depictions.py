@@ -17,8 +17,10 @@ PACKAGES = {
         "features": """**Home Screen**
 - Hide the home bar, Today view, App Library, page dots, Search button, icon labels, notification badges
 - Folders: hide the background, or show the folder as its first app's icon
+- Layout: up to 6 columns and 8 rows per page; hide "+" and "Done" while editing
 - Dock: hide it, background style, icon count (3–6)
-- Icons: badges in the app's own color, download percentage, fade when idle
+- Icon menu: Copy Bundle ID, Force Quit, Relaunch
+- Icons: badges in the app's own color, download percentage, fade when idle, haptic on tap
 - Screenshots: skip the corner thumbnail
 
 **Lock Screen**
@@ -34,11 +36,11 @@ PACKAGES = {
 
 **App Switcher**
 - Layout: system / grid / iPad
-- Hide titles and icons, long‑press to lock apps, pull down to clear all
+- Hide titles and icons, long‑press to lock apps, pull down to clear all, memory usage on each card
 - Card size, corners, spacing, position
 
 Settings live in Settings › xrkit; some options need a respring.""",
-        "rows": [("Version", "0.2.1"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.2.2"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues")],
     },
     "zh": {
@@ -47,8 +49,10 @@ Settings live in Settings › xrkit; some options need a respring.""",
         "features": """**主屏幕**
 - 隐藏：底部横条、负一屏、App 资源库、页面圆点、底部搜索按钮、图标名称、通知角标
 - 文件夹：隐藏背景、文件夹图标显示第一个 App 的图标
+- 布局：每页最多 6 列、8 行；编辑时隐藏「+」和「完成」
 - Dock：隐藏、背景样式、图标数量（3～6 个）
-- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明
+- 长按图标菜单：复制 Bundle ID、强制退出、重新打开
+- 图标：角标跟随 App 主色调、下载时显示百分比、静止时半透明、点按时震动
 - 截图：不显示左下角预览
 
 **锁屏**
@@ -64,14 +68,16 @@ Settings live in Settings › xrkit; some options need a respring.""",
 
 **多任务**
 - 排列样式：系统 / 网格 / iPad
-- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部
+- 隐藏卡片名称和图标、长按锁定 App、下拉清除全部、卡片上显示内存占用
 - 卡片大小、圆角、间距、上下位置
 
 设置在「设置 › xrkit」，部分选项需要注销才生效。""",
-        "rows": [("版本", "0.2.1"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.2.2"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues")],
     },
     "changelog": [
+        ("0.2.2", "- New icon\n- Home Screen layout: up to 6 columns and 8 rows per page\n- Hide \"+\" and \"Done\" while editing the Home Screen\n- Icon menu: Copy Bundle ID, Force Quit, Relaunch\n- Haptic on tap\n- Memory usage on App Switcher cards",
+                  "- 新图标\n- 主屏幕布局：每页最多 6 列、8 行\n- 编辑主屏幕时隐藏「+」和「完成」\n- 长按图标菜单：复制 Bundle ID、强制退出、重新打开\n- 点按图标时震动\n- 多任务卡片显示内存占用"),
         ("0.2.1", "- English settings, following the system language\n- About › Language: System / 中文 / English, no respring needed\n- \"Copy Debug Info\" is now always in English",
                   "- 设置页、弹窗和「需注销」标签有了英文，跟随系统语言\n- 关于页加「语言」：跟随系统 / 中文 / English，马上生效，不用注销\n- 「复制问题信息」统一用英文，方便贴进 GitHub Issue"),
         ("0.2.0", "First public release.", "第一个公开版本。"),
