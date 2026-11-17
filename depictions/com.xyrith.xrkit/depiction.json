@@ -28,7 +28,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.2.2"
+     "text": "0.2.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -82,7 +82,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.2.2"
+     "text": "0.2.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -115,6 +115,15 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.2.3",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Fixed: after enabling More Controls, the new controls could be missing from Settings › Control Center because Settings kept running from before. The Respring button now also closes Settings\n- The More Controls description now says where to add them (Settings › Control Center › More Controls, tap +)\n\n- 修复：打开「启用更多控件」后，「设置 › 控制中心」里可能看不到新控件（「设置」还是之前打开的那个）。现在「注销」按钮会顺便关掉「设置」\n- 「更多控件」的说明写清楚了添加位置（设置 › 控制中心 › 更多控制，点 ＋）"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.2.2",

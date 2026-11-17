@@ -40,7 +40,7 @@ PACKAGES = {
 - Card size, corners, spacing, position
 
 Settings live in Settings › xrkit; some options need a respring.""",
-        "rows": [("Version", "0.2.2"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.2.3"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues")],
     },
     "zh": {
@@ -72,10 +72,12 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - 卡片大小、圆角、间距、上下位置
 
 设置在「设置 › xrkit」，部分选项需要注销才生效。""",
-        "rows": [("版本", "0.2.2"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.2.3"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues")],
     },
     "changelog": [
+        ("0.2.3", "- Fixed: after enabling More Controls, the new controls could be missing from Settings › Control Center because Settings kept running from before. The Respring button now also closes Settings\n- The More Controls description now says where to add them (Settings › Control Center › More Controls, tap +)",
+                  "- 修复：打开「启用更多控件」后，「设置 › 控制中心」里可能看不到新控件（「设置」还是之前打开的那个）。现在「注销」按钮会顺便关掉「设置」\n- 「更多控件」的说明写清楚了添加位置（设置 › 控制中心 › 更多控制，点 ＋）"),
         ("0.2.2", "- New icon\n- Home Screen layout: up to 6 columns and 8 rows per page\n- Hide \"+\" and \"Done\" while editing the Home Screen\n- Icon menu: Copy Bundle ID, Force Quit, Relaunch\n- Haptic on tap\n- Memory usage on App Switcher cards",
                   "- 新图标\n- 主屏幕布局：每页最多 6 列、8 行\n- 编辑主屏幕时隐藏「+」和「完成」\n- 长按图标菜单：复制 Bundle ID、强制退出、重新打开\n- 点按图标时震动\n- 多任务卡片显示内存占用"),
         ("0.2.1", "- English settings, following the system language\n- About › Language: System / 中文 / English, no respring needed\n- \"Copy Debug Info\" is now always in English",
