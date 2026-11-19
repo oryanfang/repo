@@ -1,0 +1,130 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#14B8A6",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit, and short, readable alerts from the Dynamic Island."
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Battery details**\n- Maximum capacity, live power / voltage / current / temperature, time to full or to your limit\n- While charging, power is what the charger delivers (matches a USB power meter)\n- Charger info, capacity and cycle count\n- ⚠️ on readings that need attention, with what to do about it\n\n**Charge limit**\n- Stop charging at 60–90%; the charger then powers the phone directly\n- When you plug in: keep the limit, or charge to 100% this time\n- Monthly reminder to charge fully once\n\n**Alerts**\n- From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones\n- Charging: plugged in, target level, limit reached, fully charged, charging summary\n- Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold\n- Usage: standby drain, bedtime, high power draw\n- Each alert has its own switch and a Try It button; quiet during Focus with your own exceptions; tap to open battery details\n\nSettings live in Settings › xrhea."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "> **Pre-release.** **Only tested on iOS 17.3.1**; some features may not work on other versions. Requires a **roothide** jailbreak. The settings are in English and Chinese (About › Language)."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "0.1.0 (pre-release)"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Supported iOS",
+     "text": "iOS 17 (tested on 17.3.1)"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Jailbreak",
+     "text": "roothide"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Author",
+     "text": "xyrith"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Source Code",
+     "action": "https://github.com/oryanfang/xrhea"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Report an Issue",
+     "action": "https://github.com/oryanfang/xrhea/issues"
+    }
+   ]
+  },
+  {
+   "tabname": "中文",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限，还有从灵动岛弹出的、一眼看得懂的提醒。"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**电池信息**\n- 最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限\n- 充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）\n- 充电器信息、容量和循环次数\n- 需要注意的读数标 ⚠️，并给出处理办法\n\n**充电上限**\n- 充到 60%～90% 就停，之后电源直接给手机供电\n- 插电时可以选「按上限停」或「这次充满」\n- 每月提醒充满一次\n\n**提醒**\n- 从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅\n- 充电：插电、到点、到上限停充、充满、拔线总结\n- 异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电\n- 用电：锁屏掉电、睡前、高耗电\n- 每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息\n\n设置在「设置 › xrhea」。"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "> **预览版。** **只在 iOS 17.3.1 上测试过**，其他版本可能部分功能不生效。需要 **roothide** 越狱环境。设置页有中文和英文（关于 › 语言）。"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本",
+     "text": "0.1.0（预览版）"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "适用系统",
+     "text": "iOS 17（只在 17.3.1 测过）"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "越狱环境",
+     "text": "roothide"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "作者",
+     "text": "xyrith"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "源代码",
+     "action": "https://github.com/oryanfang/xrhea"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "反馈问题",
+     "action": "https://github.com/oryanfang/xrhea/issues"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.1.0 (pre-release)",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.\n\n第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。"
+    }
+   ]
+  }
+ ]
+}

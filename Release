@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: xyrith 的插件和工具（xrkit、xrsh）
-Date: Tue, 17 Nov 2026 07:17:28 UTC
+Date: Thu, 19 Nov 2026 10:57:27 UTC
 MD5Sum:
- 1a6b0b5c90fe315820efd03d062f6fbd 4892 Packages
- d367c5e6a588a192e8347a997321a9d1 1605 Packages.bz2
- f613f6ae7c04344d63e71c1e7c9bbbb9 1351 Packages.gz
- bc9bb628876dd9a2708fb54924875382 1328 Packages.xz
- 8ec2f45ca836be2072ae973971370a90 1314 Packages.zst
+ 37a22bab7da7b11a862d9848667c448d 5757 Packages
+ 70892f50e419ee2db87e52b3a0f9171f 1823 Packages.bz2
+ 156efdba4d0049ec104959b082be55c9 1548 Packages.gz
+ a44481fed639cd33e24eab1311fc051c 1492 Packages.xz
+ 2f3c4c84f2133e7b1c5062b4bb1bbe59 1506 Packages.zst
 SHA256:
- 05dd85903835fb339868ea74f15bfcea3d27471017d431e3edfad7c12249cff2 4892 Packages
- 3b15cd6e265a309e86e417bb5dbc1486748248e06fd4fa2df73240aad73806ac 1605 Packages.bz2
- a0a980ca1fd4ef52f2f9b4b6a2d55cbc94c47307810c30142e04cc6badde1c84 1351 Packages.gz
- 4e2f8a424a1d732e169c93807b24da8ea5f39906504a74648c25e6e7b8bb604e 1328 Packages.xz
- 22fa9337054d40de81a8167319e68745190c7c4a7a33e88f2c37a31b3feec4eb 1314 Packages.zst
+ bc53cbfb535a14317d4bbe7536e4f58a1108f1bc75fef40e13deb2bae00834ac 5757 Packages
+ 4a9b8686ca83877ca835b67328ca5857c52c86d779ba45ce5d347b01733a301f 1823 Packages.bz2
+ fa8a0f15f96828fd36a7f2e493ad31ebffd55bdadbfa9fd7576479229ab5b7d5 1548 Packages.gz
+ ccbac2f5163403445cddadf2812f641258937517544ea81de4504d4c3e77e866 1492 Packages.xz
+ 261a17ab6be5763373bebf9dde165a4ee35a6dfc134abf450bfe3ecdb7692684 1506 Packages.zst

@@ -1,3 +1,22 @@
+Package: com.xyrith.xrhea
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: xyrith
+Installed-Size: 888
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.xyrith.xrhea_0.1.0_iphoneos-arm64e.deb
+Size: 125234
+MD5sum: 55928639229bcd2cc403c18afa5d7b3e
+SHA1: 5b8aa8bccc92b1ee4131cb6d059a07e98be2760d
+SHA256: 828367b04e3b91134fbc6255bab9ccba41dec60fea1b1a8c97b6ce393d9fd10c
+Section: Tweaks
+Description: Battery and charging tweak for iOS 17: detailed battery info, a charge limit and Dynamic Island alerts. Only tested on iOS 17.3.1; requires a roothide jailbreak.
+Author: xyrith
+Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/
+Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/icon.png
+Name: xrhea
+Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/depiction.json
+
 Package: com.xyrith.xrkit
 Version: 0.2.0
 Architecture: iphoneos-arm64e

@@ -85,6 +85,64 @@ Settings live in Settings › xrkit; some options need a respring.""",
         ("0.2.0", "First public release.", "第一个公开版本。"),
     ],
 },
+"com.xyrith.xrhea": {
+    "name": "xrhea", "tint": "#14B8A6", "icon": True, "screenshots": [],
+    "source": "https://github.com/oryanfang/xrhea",
+    "en": {
+        "intro": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit, and short, readable alerts from the Dynamic Island.",
+        "note": "> **Pre-release.** **Only tested on iOS 17.3.1**; some features may not work on other versions. Requires a **roothide** jailbreak. The settings are in English and Chinese (About › Language).",
+        "features": """**Battery details**
+- Maximum capacity, live power / voltage / current / temperature, time to full or to your limit
+- While charging, power is what the charger delivers (matches a USB power meter)
+- Charger info, capacity and cycle count
+- ⚠️ on readings that need attention, with what to do about it
+
+**Charge limit**
+- Stop charging at 60–90%; the charger then powers the phone directly
+- When you plug in: keep the limit, or charge to 100% this time
+- Monthly reminder to charge fully once
+
+**Alerts**
+- From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones
+- Charging: plugged in, target level, limit reached, fully charged, charging summary
+- Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold
+- Usage: standby drain, bedtime, high power draw
+- Each alert has its own switch and a Try It button; quiet during Focus with your own exceptions; tap to open battery details
+
+Settings live in Settings › xrhea.""",
+        "rows": [("Version", "0.1.0 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "buttons": [("Source Code", ""), ("Report an Issue", "/issues")],
+    },
+    "zh": {
+        "intro": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限，还有从灵动岛弹出的、一眼看得懂的提醒。",
+        "note": "> **预览版。** **只在 iOS 17.3.1 上测试过**，其他版本可能部分功能不生效。需要 **roothide** 越狱环境。设置页有中文和英文（关于 › 语言）。",
+        "features": """**电池信息**
+- 最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限
+- 充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）
+- 充电器信息、容量和循环次数
+- 需要注意的读数标 ⚠️，并给出处理办法
+
+**充电上限**
+- 充到 60%～90% 就停，之后电源直接给手机供电
+- 插电时可以选「按上限停」或「这次充满」
+- 每月提醒充满一次
+
+**提醒**
+- 从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅
+- 充电：插电、到点、到上限停充、充满、拔线总结
+- 异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电
+- 用电：锁屏掉电、睡前、高耗电
+- 每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息
+
+设置在「设置 › xrhea」。""",
+        "rows": [("版本", "0.1.0（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "buttons": [("源代码", ""), ("反馈问题", "/issues")],
+    },
+    "changelog": [
+        ("0.1.0 (pre-release)", "First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.",
+                                "第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。"),
+    ],
+},
 "com.xyrith.xrsh": {
     "name": "xrsh", "tint": "#3B82F6", "icon": True,
     "screenshots": [("en-devices", "Devices"), ("terminal", "Terminal"), ("en-settings", "Settings")],
