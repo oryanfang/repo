@@ -5,9 +5,9 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 .card{background:#fff;border-radius:12px;padding:12px 16px;margin-bottom:12px}h3{margin:12px 0 4px}ul{padding-left:20px;margin:4px 0}
 .head{display:flex;align-items:center;gap:12px}.head img{width:60px;height:60px;border-radius:13px}a{color:#14B8A6}
 .shots{display:flex;gap:8px;overflow-x:auto}.shots img{width:30%;min-width:120px;border-radius:10px}</style></head><body>
-<div class="card head"><img src="icon.png" alt=""><div><b>xrhea</b> 0.1.0 (pre-release)<br><small>Battery and charging tweak for jailbroken iOS 17</small></div></div>
+<div class="card head"><img src="icon.png" alt=""><div><b>xrhea</b> 0.2.0 (pre-release)<br><small>Battery and charging tweak for jailbroken iOS 17</small></div></div>
 
-<div class="card"><p>Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit, and short, readable alerts from the Dynamic Island.</p><h3>Battery details</h3>
+<div class="card"><p>Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, Low Power Mode automation, and short, readable alerts from the Dynamic Island.</p><h3>Battery details</h3>
 <ul>
 <li>Maximum capacity, live power / voltage / current / temperature, time to full or to your limit</li>
 <li>While charging, power is what the charger delivers (matches a USB power meter)</li>
@@ -18,7 +18,17 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 <ul>
 <li>Stop charging at 60–90%; the charger then powers the phone directly</li>
 <li>When you plug in: keep the limit, or charge to 100% this time</li>
+<li>Scheduled full charge: hold at the limit overnight, full by the time you set</li>
 <li>Monthly reminder to charge fully once</li>
+</ul>
+<h3>Optimization</h3>
+<ul>
+<li>Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C recommended)</li>
+</ul>
+<h3>Low Power Mode</h3>
+<ul>
+<li>Turn it on below a set level, off once charged to a set level, and on while locked</li>
+<li>Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on</li>
 </ul>
 <h3>Alerts</h3>
 <ul>
@@ -30,7 +40,7 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 </ul>
 <p>Settings live in Settings › xrhea.</p></div>
 <div class="card"><p><b>Pre-release.</b> <b>Only tested on iOS 17.3.1</b>; some features may not work on other versions. Requires a <b>roothide</b> jailbreak. The settings are in English and Chinese (About › Language).</p></div>
-<div class="card"><h3>中文</h3><p>iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限，还有从灵动岛弹出的、一眼看得懂的提醒。</p><h3>电池信息</h3>
+<div class="card"><h3>中文</h3><p>iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。</p><h3>电池信息</h3>
 <ul>
 <li>最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限</li>
 <li>充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）</li>
@@ -41,7 +51,17 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 <ul>
 <li>充到 60%～90% 就停，之后电源直接给手机供电</li>
 <li>插电时可以选「按上限停」或「这次充满」</li>
+<li>定时充满：夜里先停在上限，在你设的时间前充满</li>
 <li>每月提醒充满一次</li>
+</ul>
+<h3>优化</h3>
+<ul>
+<li>充电时的高温保护：达到设定温度（推荐 40℃）就停充或改为间歇充电</li>
+</ul>
+<h3>低电量模式</h3>
+<ul>
+<li>低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启</li>
+<li>ProMotion 机型在低电量模式下保持 120Hz，其他省电措施不变</li>
 </ul>
 <h3>提醒</h3>
 <ul>
@@ -52,6 +72,6 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 <li>每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息</li>
 </ul>
 <p>设置在「设置 › xrhea」。</p><p><b>预览版。</b> <b>只在 iOS 17.3.1 上测试过</b>，其他版本可能部分功能不生效。需要 <b>roothide</b> 越狱环境。设置页有中文和英文（关于 › 语言）。</p></div>
-<div class="card"><h3>Changelog · 更新日志</h3><h3>0.1.0 (pre-release)</h3><p>First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.</p><p>第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。</p></div>
+<div class="card"><h3>Changelog · 更新日志</h3><h3>0.2.0 (pre-release)</h3><p>Scheduled full charge; heat protection (stop or intermittent charging); Low Power Mode automation and keeping 120 Hz in Low Power Mode; cleaner settings with sliders and new icons; the update check also finds pre-releases.</p><p>定时充满；高温保护（停充或间歇充电）；低电量模式自动开关，以及低电量模式下保持 120Hz；设置页精简排版，改用滑块和新图标；检查更新也能查到预览版。</p><h3>0.1.0 (pre-release)</h3><p>First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.</p><p>第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。</p></div>
 <div class="card"><a href="https://github.com/oryanfang/xrhea">Source Code · 源代码</a> · <a href="https://github.com/oryanfang/xrhea/issues">Report an Issue · 反馈问题</a></div>
 </body></html>
