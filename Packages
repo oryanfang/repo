@@ -40,13 +40,13 @@ Package: com.xyrith.xrhea
 Version: 0.3.0
 Architecture: iphoneos-arm64e
 Maintainer: xyrith
-Installed-Size: 1460
+Installed-Size: 1548
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/com.xyrith.xrhea_0.3.0_iphoneos-arm64e.deb
-Size: 208400
-MD5sum: 9f13629a50e3a458c1d42c6534059476
-SHA1: 80daf3f3fe57b5f9d16f97f626e665e8204081a6
-SHA256: 5c616b68d06bc6116eb8cb622b9c25a38891ee7f2bbf4aa5016f8d87a555adbd
+Size: 287626
+MD5sum: e99b414daf952a138e83dadc6c531099
+SHA1: 85131165ed0afb4bc094b4ca62654b8d9e4ee6a9
+SHA256: f09f65e15bfb87868081e72c5d54a99459fba9a826caef8cf2d4c088afddb88b
 Section: Tweaks
 Description: Battery and charging tweak for iOS 17: detailed battery info, a charge limit with scheduled full charge, a battery log (charging history, 24-hour level chart, per-app drain, push reconnects, Markdown export), heat protection and bypass charging, Low Power Mode automation with 120 Hz kept, and Dynamic Island alerts. Only tested on iOS 17.3.1; requires a roothide jailbreak.
 Author: xyrith
@@ -116,13 +116,13 @@ Package: com.xyrith.xrkit
 Version: 0.2.3
 Architecture: iphoneos-arm64e
 Maintainer: xyrith
-Installed-Size: 3380
+Installed-Size: 3500
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/com.xyrith.xrkit_0.2.3_iphoneos-arm64e.deb
-Size: 187514
-MD5sum: 88eb5f5aabb899da6dc3267d570e2b79
-SHA1: 00c3752248b8f634e2471bc2d3b0979a63a5abaf
-SHA256: 56cb31c0c88ca7116a76ff6c3071cb729f005d4d912018b89dce730d5b7380ff
+Size: 266806
+MD5sum: 0b11d7f081dba9ea49b10efff9ad7028
+SHA1: 2ff1e3258e93603fa135d97d706f71e4be1be71c
+SHA256: 4a3e7f343f7feb66111c5b33530455a89dd03e7870437ec7d515f73f05f8f426
 Section: Tweaks
 Description: All-in-one tweak for iOS 17: Home Screen, Lock Screen, Control Center and App Switcher. Only tested on iOS 17.3.1; requires a roothide jailbreak.
 Author: xyrith
@@ -137,10 +137,10 @@ Architecture: iphoneos-arm64e
 Maintainer: xyrith
 Depends: firmware (>= 17.0)
 Filename: debs/com.xyrith.xrsh_1.1_iphoneos-arm64e.deb
-Size: 3777336
-MD5sum: 6b45f7c1ffbb3e706f1bfe721bdd376a
-SHA1: ea0bc726a94d533b9d5e334efaea66140476d18b
-SHA256: 5606f45907457017cff0d700153ad194509861f69d117d33765e444769f4bb5d
+Size: 3856516
+MD5sum: 45d012fd62775dca96e6e24df41126bc
+SHA1: 85a62091c38e98e87e708a356a663f8a6c4f5afc
+SHA256: aee84b44d7257091fbcb53e8e67254a0901abed81f55ac6f5add3681c66bf76b
 Section: Networking
 Description: Lightweight SSH client and LAN scanner for iOS, with a real shell on jailbroken devices. Requires iOS 17 or later.
 Author: xyrith
@@ -155,10 +155,10 @@ Architecture: iphoneos-arm64
 Maintainer: xyrith
 Depends: firmware (>= 17.0)
 Filename: debs/com.xyrith.xrsh_1.1_iphoneos-arm64.deb
-Size: 3776816
-MD5sum: ce935b770a795c91d2a3c1852526262a
-SHA1: c4be85ad3364c4987166b8022fead7f30f0d5129
-SHA256: 5df200851caff39554cdbcb289fe6204fe9e16cb2508020b1d2d17fd1950f23a
+Size: 3856660
+MD5sum: 207234187fe1d8e6527207e1853170c9
+SHA1: c7dba7f784fabf909e5ee64c0063bc1805980476
+SHA256: bf0c95871177a1b3c719ef914c43338026b38d301cf5e27ec165a083a6dd178d
 Section: Networking
 Description: Lightweight SSH client and LAN scanner for iOS, with a real shell on jailbroken devices. Requires iOS 17 or later.
 Author: xyrith
