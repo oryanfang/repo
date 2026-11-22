@@ -73,6 +73,11 @@
      "class": "DepictionTableButtonView",
      "title": "Report an Issue",
      "action": "https://github.com/oryanfang/xrhea/issues"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Donate (WeChat)",
+     "action": "https://github.com/oryanfang/xrhea/blob/main/docs/wechat-reward.jpg"
     }
    ]
   },

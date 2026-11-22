@@ -129,7 +129,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
 
 Settings live in Settings › xrhea.""",
         "rows": [("Version", "0.3.0 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
-        "buttons": [("Source Code", ""), ("Report an Issue", "/issues")],
+        "buttons": [("Source Code", ""), ("Report an Issue", "/issues"), ("Donate (WeChat)", "/blob/main/docs/wechat-reward.jpg")],
     },
     "zh": {
         "intro": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、看得清电去哪了的电池日志、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。",

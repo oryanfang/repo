@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: xyrith 的插件和工具（xrkit、xrsh）
-Date: Sun, 22 Nov 2026 09:57:38 UTC
+Date: Sun, 22 Nov 2026 11:02:04 UTC
 MD5Sum:
  d4596a07c4ebda3342c87f8865da2354 7791 Packages
  b1b3f92945ca0afa27c4f59dfcb82e96 2212 Packages.bz2
- 539dc72fdfee244fa1d1915da733647a 1917 Packages.gz
+ dac772568e1e6471fc87433ac65aa1a4 1917 Packages.gz
  01f052980311dd0da1791a1e11df1c7e 1840 Packages.xz
  0f953bf82c5a61364f8bd9c2ffbdd6fe 1836 Packages.zst
 SHA256:
  49f85124aa707d5e17a3e1cc83255ba67307b6826917bb99d39dcf0a4299f15a 7791 Packages
  03ffe2c49588daaf2bdc43f3f468cc0ef0b7ae930d63c8facb4013ab572330bb 2212 Packages.bz2
- 30d5737f714767dfbe4f5be053520e98c16dbc944581f74209071d9e3ad5ee09 1917 Packages.gz
+ d1109726e43d04023bb1828a4460e3e14c3afdd58ecae75d016c26e58e5eccf8 1917 Packages.gz
  81d6a840987fcccc907bf221c978d3a93a377556f9ccc23467ee84eead0d84dd 1840 Packages.xz
  ee6bc77a928c7a394ba66438b1faee88a1d283319ae3271189fdef9ec25fd8a7 1836 Packages.zst
