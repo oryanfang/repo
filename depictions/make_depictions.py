@@ -86,7 +86,9 @@ Settings live in Settings › xrkit; some options need a respring.""",
     ],
 },
 "com.xyrith.xrhea": {
-    "name": "xrhea", "tint": "#14B8A6", "icon": True, "screenshots": [],
+    "name": "xrhea", "tint": "#14B8A6", "icon": True,
+    "screenshots": [("en-battery", "Battery"), ("en-log", "Log"), ("en-alerts", "Alerts")],
+    "screenshots_zh": [("zh-battery", "电池信息"), ("zh-log", "日志"), ("zh-alerts", "提示")],
     "source": "https://github.com/oryanfang/xrhea",
     "en": {
         "intro": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, a battery log that shows where the charge goes, Low Power Mode automation, and short, readable alerts from the Dynamic Island.",

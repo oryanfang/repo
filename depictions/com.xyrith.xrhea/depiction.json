@@ -12,6 +12,25 @@
      "markdown": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, a battery log that shows where the charge goes, Low Power Mode automation, and short, readable alerts from the Dynamic Island."
     },
     {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 12,
+     "itemSize": "{160, 347}",
+     "screenshots": [
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/en-battery.png",
+       "accessibilityText": "Battery"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/en-log.png",
+       "accessibilityText": "Log"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/en-alerts.png",
+       "accessibilityText": "Alerts"
+      }
+     ]
+    },
+    {
      "class": "DepictionMarkdownView",
      "markdown": "**Battery details**\n- Maximum capacity, live power / voltage / current / temperature, time to full or to your limit\n- While charging, power is what the charger delivers (matches a USB power meter)\n- Charger info, capacity and cycle count\n- ⚠️ on readings that need attention, with what to do about it\n\n**Charge limit**\n- Stop charging at 60–90%; the charger then powers the phone directly\n- When you plug in: keep the limit, or charge to 100% this time\n- Scheduled full charge: hold at the limit overnight, full by the time you set\n- Monthly reminder to charge fully once\n\n**Optimization**\n- Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C wired, 37 °C wireless recommended)\n- Bypass while gaming: under heavy load, stop charging the battery and run on the charger to stay cooler\n- Background drain alert: tells you when one app drains too much while locked\n\n**Log**\n- 24-hour battery level chart and 30 days of charging history, each with its own chart\n- Measured speed for each charger, renamable\n- Battery drain: standby drain, usage by app (all / while locked), push reconnects and network wakes\n- Export everything as one Markdown file to save or hand to an AI\n\n**Low Power Mode**\n- Turn it on below a set level, off once charged to a set level, on while locked, and on while charging\n- Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on\n\n**Alerts**\n- From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones\n- Charging: plugged in, target level, limit reached, bypass started, fully charged, charging summary\n- Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold\n- Usage: standby drain, bedtime, high power draw, background drain, weekly summary\n- Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page\n\nSettings live in Settings › xrhea."
     },
@@ -64,6 +83,25 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、看得清电去哪了的电池日志、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。"
+    },
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 12,
+     "itemSize": "{160, 347}",
+     "screenshots": [
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/zh-battery.png",
+       "accessibilityText": "电池信息"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/zh-log.png",
+       "accessibilityText": "日志"
+      },
+      {
+       "url": "https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/zh-alerts.png",
+       "accessibilityText": "提示"
+      }
+     ]
     },
     {
      "class": "DepictionMarkdownView",
