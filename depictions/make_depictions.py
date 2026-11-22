@@ -170,7 +170,7 @@ Settings live in Settings › xrhea.""",
 
 设置在「设置 › xrhea」。""",
         "rows": [("版本", "0.3.0（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
-        "buttons": [("源代码", ""), ("反馈问题", "/issues")],
+        "buttons": [("源代码", ""), ("反馈问题", "/issues"), ("赞赏作者（微信）", "/blob/main/docs/wechat-reward.jpg")],
     },
     "changelog": [
         ("0.3.0 (pre-release)", "New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.",

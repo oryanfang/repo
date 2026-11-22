@@ -146,6 +146,11 @@
      "class": "DepictionTableButtonView",
      "title": "反馈问题",
      "action": "https://github.com/oryanfang/xrhea/issues"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "赞赏作者（微信）",
+     "action": "https://github.com/oryanfang/xrhea/blob/main/docs/wechat-reward.jpg"
     }
    ]
   },
