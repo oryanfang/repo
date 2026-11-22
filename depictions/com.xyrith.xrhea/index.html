@@ -5,9 +5,9 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 .card{background:#fff;border-radius:12px;padding:12px 16px;margin-bottom:12px}h3{margin:12px 0 4px}ul{padding-left:20px;margin:4px 0}
 .head{display:flex;align-items:center;gap:12px}.head img{width:60px;height:60px;border-radius:13px}a{color:#14B8A6}
 .shots{display:flex;gap:8px;overflow-x:auto}.shots img{width:30%;min-width:120px;border-radius:10px}</style></head><body>
-<div class="card head"><img src="icon.png" alt=""><div><b>xrhea</b> 0.2.0 (pre-release)<br><small>Battery and charging tweak for jailbroken iOS 17</small></div></div>
+<div class="card head"><img src="icon.png" alt=""><div><b>xrhea</b> 0.3.0 (pre-release)<br><small>Battery and charging tweak for jailbroken iOS 17</small></div></div>
 
-<div class="card"><p>Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, Low Power Mode automation, and short, readable alerts from the Dynamic Island.</p><h3>Battery details</h3>
+<div class="card"><p>Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, a battery log that shows where the charge goes, Low Power Mode automation, and short, readable alerts from the Dynamic Island.</p><h3>Battery details</h3>
 <ul>
 <li>Maximum capacity, live power / voltage / current / temperature, time to full or to your limit</li>
 <li>While charging, power is what the charger delivers (matches a USB power meter)</li>
@@ -23,24 +23,33 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 </ul>
 <h3>Optimization</h3>
 <ul>
-<li>Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C recommended)</li>
+<li>Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C wired, 37 °C wireless recommended)</li>
+<li>Bypass while gaming: under heavy load, stop charging the battery and run on the charger to stay cooler</li>
+<li>Background drain alert: tells you when one app drains too much while locked</li>
+</ul>
+<h3>Log</h3>
+<ul>
+<li>24-hour battery level chart and 30 days of charging history, each with its own chart</li>
+<li>Measured speed for each charger, renamable</li>
+<li>Battery drain: standby drain, usage by app (all / while locked), push reconnects and network wakes</li>
+<li>Export everything as one Markdown file to save or hand to an AI</li>
 </ul>
 <h3>Low Power Mode</h3>
 <ul>
-<li>Turn it on below a set level, off once charged to a set level, and on while locked</li>
+<li>Turn it on below a set level, off once charged to a set level, on while locked, and on while charging</li>
 <li>Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on</li>
 </ul>
 <h3>Alerts</h3>
 <ul>
 <li>From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones</li>
-<li>Charging: plugged in, target level, limit reached, fully charged, charging summary</li>
+<li>Charging: plugged in, target level, limit reached, bypass started, fully charged, charging summary</li>
 <li>Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold</li>
-<li>Usage: standby drain, bedtime, high power draw</li>
-<li>Each alert has its own switch and a Try It button; quiet during Focus with your own exceptions; tap to open battery details</li>
+<li>Usage: standby drain, bedtime, high power draw, background drain, weekly summary</li>
+<li>Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page</li>
 </ul>
 <p>Settings live in Settings › xrhea.</p></div>
 <div class="card"><p><b>Pre-release.</b> <b>Only tested on iOS 17.3.1</b>; some features may not work on other versions. Requires a <b>roothide</b> jailbreak. The settings are in English and Chinese (About › Language).</p></div>
-<div class="card"><h3>中文</h3><p>iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。</p><h3>电池信息</h3>
+<div class="card"><h3>中文</h3><p>iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、看得清电去哪了的电池日志、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。</p><h3>电池信息</h3>
 <ul>
 <li>最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限</li>
 <li>充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）</li>
@@ -56,22 +65,31 @@ body{font:16px -apple-system,sans-serif;margin:0;padding:16px;background:#f2f2f7
 </ul>
 <h3>优化</h3>
 <ul>
-<li>充电时的高温保护：达到设定温度（推荐 40℃）就停充或改为间歇充电</li>
+<li>充电时的高温保护：达到设定温度（推荐有线 40℃、无线 37℃）就停充或改为间歇充电</li>
+<li>边充边玩直充：负载高时停止给电池充电，由电源直接供电，温度更低</li>
+<li>后台耗电提醒：某个 App 锁屏时耗电过多时提醒</li>
+</ul>
+<h3>日志</h3>
+<ul>
+<li>24 小时电量曲线、最近 30 天充电记录，每次都有曲线</li>
+<li>每个充电器的实测速度，可以改名</li>
+<li>耗电排查：锁屏待机速度、App 耗电排行（全部 / 锁屏时）、推送重连和网络唤醒次数</li>
+<li>全部导出成一份 Markdown，可以保存或交给 AI 分析</li>
 </ul>
 <h3>低电量模式</h3>
 <ul>
-<li>低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启</li>
+<li>低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启、充电时开启</li>
 <li>ProMotion 机型在低电量模式下保持 120Hz，其他省电措施不变</li>
 </ul>
 <h3>提醒</h3>
 <ul>
 <li>从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅</li>
-<li>充电：插电、到点、到上限停充、充满、拔线总结</li>
+<li>充电：插电、到点、到上限停充、开始直充、充满、拔线总结</li>
 <li>异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电</li>
-<li>用电：锁屏掉电、睡前、高耗电</li>
-<li>每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息</li>
+<li>用电：锁屏掉电、睡前、高耗电、后台耗电、每周小结</li>
+<li>每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面</li>
 </ul>
 <p>设置在「设置 › xrhea」。</p><p><b>预览版。</b> <b>只在 iOS 17.3.1 上测试过</b>，其他版本可能部分功能不生效。需要 <b>roothide</b> 越狱环境。设置页有中文和英文（关于 › 语言）。</p></div>
-<div class="card"><h3>Changelog · 更新日志</h3><h3>0.2.0 (pre-release)</h3><p>Scheduled full charge; heat protection (stop or intermittent charging); Low Power Mode automation and keeping 120 Hz in Low Power Mode; cleaner settings with sliders and new icons; the update check also finds pre-releases.</p><p>定时充满；高温保护（停充或间歇充电）；低电量模式自动开关，以及低电量模式下保持 120Hz；设置页精简排版，改用滑块和新图标；检查更新也能查到预览版。</p><h3>0.1.0 (pre-release)</h3><p>First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.</p><p>第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。</p></div>
+<div class="card"><h3>Changelog · 更新日志</h3><h3>0.3.0 (pre-release)</h3><p>New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.</p><p>新增日志：24 小时电量曲线、最近 30 天充电记录和充电器实测速度；耗电排查：App 耗电排行、锁屏待机速度和推送重连；Markdown 导出；边充边玩直充和后台耗电提醒；高温保护可单独设无线温度；充电时开启低电量模式；每周小结和直充提醒；点提醒打开相关页面；「试试看」改名「预览」。</p><h3>0.2.0 (pre-release)</h3><p>Scheduled full charge; heat protection (stop or intermittent charging); Low Power Mode automation and keeping 120 Hz in Low Power Mode; cleaner settings with sliders and new icons; the update check also finds pre-releases.</p><p>定时充满；高温保护（停充或间歇充电）；低电量模式自动开关，以及低电量模式下保持 120Hz；设置页精简排版，改用滑块和新图标；检查更新也能查到预览版。</p><h3>0.1.0 (pre-release)</h3><p>First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.</p><p>第一个版本（预览版）：电池信息、充电上限、灵动岛和横幅提醒。</p></div>
 <div class="card"><a href="https://github.com/oryanfang/xrhea">Source Code · 源代码</a> · <a href="https://github.com/oryanfang/xrhea/issues">Report an Issue · 反馈问题</a></div>
 </body></html>

@@ -89,7 +89,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
     "name": "xrhea", "tint": "#14B8A6", "icon": True, "screenshots": [],
     "source": "https://github.com/oryanfang/xrhea",
     "en": {
-        "intro": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, Low Power Mode automation, and short, readable alerts from the Dynamic Island.",
+        "intro": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, a battery log that shows where the charge goes, Low Power Mode automation, and short, readable alerts from the Dynamic Island.",
         "note": "> **Pre-release.** **Only tested on iOS 17.3.1**; some features may not work on other versions. Requires a **roothide** jailbreak. The settings are in English and Chinese (About › Language).",
         "features": """**Battery details**
 - Maximum capacity, live power / voltage / current / temperature, time to full or to your limit
@@ -104,25 +104,33 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - Monthly reminder to charge fully once
 
 **Optimization**
-- Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C recommended)
+- Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C wired, 37 °C wireless recommended)
+- Bypass while gaming: under heavy load, stop charging the battery and run on the charger to stay cooler
+- Background drain alert: tells you when one app drains too much while locked
+
+**Log**
+- 24-hour battery level chart and 30 days of charging history, each with its own chart
+- Measured speed for each charger, renamable
+- Battery drain: standby drain, usage by app (all / while locked), push reconnects and network wakes
+- Export everything as one Markdown file to save or hand to an AI
 
 **Low Power Mode**
-- Turn it on below a set level, off once charged to a set level, and on while locked
+- Turn it on below a set level, off once charged to a set level, on while locked, and on while charging
 - Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on
 
 **Alerts**
 - From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones
-- Charging: plugged in, target level, limit reached, fully charged, charging summary
+- Charging: plugged in, target level, limit reached, bypass started, fully charged, charging summary
 - Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold
-- Usage: standby drain, bedtime, high power draw
-- Each alert has its own switch and a Try It button; quiet during Focus with your own exceptions; tap to open battery details
+- Usage: standby drain, bedtime, high power draw, background drain, weekly summary
+- Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page
 
 Settings live in Settings › xrhea.""",
-        "rows": [("Version", "0.2.0 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.3.0 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues")],
     },
     "zh": {
-        "intro": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。",
+        "intro": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、看得清电去哪了的电池日志、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。",
         "note": "> **预览版。** **只在 iOS 17.3.1 上测试过**，其他版本可能部分功能不生效。需要 **roothide** 越狱环境。设置页有中文和英文（关于 › 语言）。",
         "features": """**电池信息**
 - 最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限
@@ -137,24 +145,34 @@ Settings live in Settings › xrhea.""",
 - 每月提醒充满一次
 
 **优化**
-- 充电时的高温保护：达到设定温度（推荐 40℃）就停充或改为间歇充电
+- 充电时的高温保护：达到设定温度（推荐有线 40℃、无线 37℃）就停充或改为间歇充电
+- 边充边玩直充：负载高时停止给电池充电，由电源直接供电，温度更低
+- 后台耗电提醒：某个 App 锁屏时耗电过多时提醒
+
+**日志**
+- 24 小时电量曲线、最近 30 天充电记录，每次都有曲线
+- 每个充电器的实测速度，可以改名
+- 耗电排查：锁屏待机速度、App 耗电排行（全部 / 锁屏时）、推送重连和网络唤醒次数
+- 全部导出成一份 Markdown，可以保存或交给 AI 分析
 
 **低电量模式**
-- 低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启
+- 低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启、充电时开启
 - ProMotion 机型在低电量模式下保持 120Hz，其他省电措施不变
 
 **提醒**
 - 从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅
-- 充电：插电、到点、到上限停充、充满、拔线总结
+- 充电：插电、到点、到上限停充、开始直充、充满、拔线总结
 - 异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电
-- 用电：锁屏掉电、睡前、高耗电
-- 每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息
+- 用电：锁屏掉电、睡前、高耗电、后台耗电、每周小结
+- 每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面
 
 设置在「设置 › xrhea」。""",
-        "rows": [("版本", "0.2.0（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.3.0（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues")],
     },
     "changelog": [
+        ("0.3.0 (pre-release)", "New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.",
+                                "新增日志：24 小时电量曲线、最近 30 天充电记录和充电器实测速度；耗电排查：App 耗电排行、锁屏待机速度和推送重连；Markdown 导出；边充边玩直充和后台耗电提醒；高温保护可单独设无线温度；充电时开启低电量模式；每周小结和直充提醒；点提醒打开相关页面；「试试看」改名「预览」。"),
         ("0.2.0 (pre-release)", "Scheduled full charge; heat protection (stop or intermittent charging); Low Power Mode automation and keeping 120 Hz in Low Power Mode; cleaner settings with sliders and new icons; the update check also finds pre-releases.",
                                 "定时充满；高温保护（停充或间歇充电）；低电量模式自动开关，以及低电量模式下保持 120Hz；设置页精简排版，改用滑块和新图标；检查更新也能查到预览版。"),
         ("0.1.0 (pre-release)", "First release (pre-release): battery details, charge limit, Dynamic Island and banner alerts.",

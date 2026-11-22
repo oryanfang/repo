@@ -9,11 +9,11 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, Low Power Mode automation, and short, readable alerts from the Dynamic Island."
+     "markdown": "Battery and charging tweak for jailbroken iOS 17: detailed battery info, a real charge limit with scheduled full charge, heat protection, a battery log that shows where the charge goes, Low Power Mode automation, and short, readable alerts from the Dynamic Island."
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "**Battery details**\n- Maximum capacity, live power / voltage / current / temperature, time to full or to your limit\n- While charging, power is what the charger delivers (matches a USB power meter)\n- Charger info, capacity and cycle count\n- ⚠️ on readings that need attention, with what to do about it\n\n**Charge limit**\n- Stop charging at 60–90%; the charger then powers the phone directly\n- When you plug in: keep the limit, or charge to 100% this time\n- Scheduled full charge: hold at the limit overnight, full by the time you set\n- Monthly reminder to charge fully once\n\n**Optimization**\n- Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C recommended)\n\n**Low Power Mode**\n- Turn it on below a set level, off once charged to a set level, and on while locked\n- Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on\n\n**Alerts**\n- From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones\n- Charging: plugged in, target level, limit reached, fully charged, charging summary\n- Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold\n- Usage: standby drain, bedtime, high power draw\n- Each alert has its own switch and a Try It button; quiet during Focus with your own exceptions; tap to open battery details\n\nSettings live in Settings › xrhea."
+     "markdown": "**Battery details**\n- Maximum capacity, live power / voltage / current / temperature, time to full or to your limit\n- While charging, power is what the charger delivers (matches a USB power meter)\n- Charger info, capacity and cycle count\n- ⚠️ on readings that need attention, with what to do about it\n\n**Charge limit**\n- Stop charging at 60–90%; the charger then powers the phone directly\n- When you plug in: keep the limit, or charge to 100% this time\n- Scheduled full charge: hold at the limit overnight, full by the time you set\n- Monthly reminder to charge fully once\n\n**Optimization**\n- Heat protection while charging: stop charging or switch to intermittent charging at the set temperature (40 °C wired, 37 °C wireless recommended)\n- Bypass while gaming: under heavy load, stop charging the battery and run on the charger to stay cooler\n- Background drain alert: tells you when one app drains too much while locked\n\n**Log**\n- 24-hour battery level chart and 30 days of charging history, each with its own chart\n- Measured speed for each charger, renamable\n- Battery drain: standby drain, usage by app (all / while locked), push reconnects and network wakes\n- Export everything as one Markdown file to save or hand to an AI\n\n**Low Power Mode**\n- Turn it on below a set level, off once charged to a set level, on while locked, and on while charging\n- Keep 120 Hz in Low Power Mode on ProMotion models; other power savings stay on\n\n**Alerts**\n- From the Dynamic Island (a long pill like the one iOS shows when you plug in, or a shorter one), or a banner on other phones\n- Charging: plugged in, target level, limit reached, bypass started, fully charged, charging summary\n- Issues: slow charging, slowed by heat, loose cable, plugged in but not charging, hot, charging in the cold\n- Usage: standby drain, bedtime, high power draw, background drain, weekly summary\n- Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page\n\nSettings live in Settings › xrhea."
     },
     {
      "class": "DepictionSeparatorView"
@@ -28,7 +28,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.2.0 (pre-release)"
+     "text": "0.3.0 (pre-release)"
     },
     {
      "class": "DepictionTableTextView",
@@ -63,11 +63,11 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。"
+     "markdown": "iOS 17 越狱电池与充电插件：详细的电池信息、真正能停充的充电上限和定时充满、高温保护、看得清电去哪了的电池日志、低电量模式自动开关，还有从灵动岛弹出的、一眼看得懂的提醒。"
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "**电池信息**\n- 最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限\n- 充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）\n- 充电器信息、容量和循环次数\n- 需要注意的读数标 ⚠️，并给出处理办法\n\n**充电上限**\n- 充到 60%～90% 就停，之后电源直接给手机供电\n- 插电时可以选「按上限停」或「这次充满」\n- 定时充满：夜里先停在上限，在你设的时间前充满\n- 每月提醒充满一次\n\n**优化**\n- 充电时的高温保护：达到设定温度（推荐 40℃）就停充或改为间歇充电\n\n**低电量模式**\n- 低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启\n- ProMotion 机型在低电量模式下保持 120Hz，其他省电措施不变\n\n**提醒**\n- 从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅\n- 充电：插电、到点、到上限停充、充满、拔线总结\n- 异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电\n- 用电：锁屏掉电、睡前、高耗电\n- 每条单独开关，有「试试看」；专注模式时静默，可以自选照常提醒的几条；点提醒打开电池信息\n\n设置在「设置 › xrhea」。"
+     "markdown": "**电池信息**\n- 最大容量，实时功率 / 电压 / 电流 / 温度，多久充满或充到上限\n- 充电时的功率是充电头送进手机的功率（和 USB 数显线对得上）\n- 充电器信息、容量和循环次数\n- 需要注意的读数标 ⚠️，并给出处理办法\n\n**充电上限**\n- 充到 60%～90% 就停，之后电源直接给手机供电\n- 插电时可以选「按上限停」或「这次充满」\n- 定时充满：夜里先停在上限，在你设的时间前充满\n- 每月提醒充满一次\n\n**优化**\n- 充电时的高温保护：达到设定温度（推荐有线 40℃、无线 37℃）就停充或改为间歇充电\n- 边充边玩直充：负载高时停止给电池充电，由电源直接供电，温度更低\n- 后台耗电提醒：某个 App 锁屏时耗电过多时提醒\n\n**日志**\n- 24 小时电量曲线、最近 30 天充电记录，每次都有曲线\n- 每个充电器的实测速度，可以改名\n- 耗电排查：锁屏待机速度、App 耗电排行（全部 / 锁屏时）、推送重连和网络唤醒次数\n- 全部导出成一份 Markdown，可以保存或交给 AI 分析\n\n**低电量模式**\n- 低于设定电量自动开启、充到设定电量自动关闭、锁屏时开启、充电时开启\n- ProMotion 机型在低电量模式下保持 120Hz，其他省电措施不变\n\n**提醒**\n- 从灵动岛弹出（和系统插电那条一样的长条，或者短条），没有灵动岛的机型用横幅\n- 充电：插电、到点、到上限停充、开始直充、充满、拔线总结\n- 异常：慢充、过热降速、接触不良、插着却不充、过热、低温充电\n- 用电：锁屏掉电、睡前、高耗电、后台耗电、每周小结\n- 每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面\n\n设置在「设置 › xrhea」。"
     },
     {
      "class": "DepictionSeparatorView"
@@ -82,7 +82,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.2.0（预览版）"
+     "text": "0.3.0（预览版）"
     },
     {
      "class": "DepictionTableTextView",
@@ -115,6 +115,15 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.3.0 (pre-release)",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.\n\n新增日志：24 小时电量曲线、最近 30 天充电记录和充电器实测速度；耗电排查：App 耗电排行、锁屏待机速度和推送重连；Markdown 导出；边充边玩直充和后台耗电提醒；高温保护可单独设无线温度；充电时开启低电量模式；每周小结和直充提醒；点提醒打开相关页面；「试试看」改名「预览」。"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.2.0 (pre-release)",
