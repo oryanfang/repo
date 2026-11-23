@@ -47,7 +47,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.3.0 (pre-release)"
+     "text": "0.3.1 (pre-release)"
     },
     {
      "class": "DepictionTableTextView",
@@ -125,7 +125,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.3.0（预览版）"
+     "text": "0.3.1（预览版）"
     },
     {
      "class": "DepictionTableTextView",
@@ -163,6 +163,15 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.3.1 (pre-release)",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Fixed the weekly summary popping up again a few minutes after Monday 9:00, and Background Drain Alert repeating for the same app on the same day.\n\n修复每周小结在周一 9:00 之后隔几分钟又弹一次，以及后台耗电提醒同一个 App 同一天重复弹。"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.3.0 (pre-release)",

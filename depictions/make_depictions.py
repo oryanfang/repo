@@ -128,7 +128,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page
 
 Settings live in Settings › xrhea.""",
-        "rows": [("Version", "0.3.0 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.3.1 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues"), ("Donate (WeChat)", "/blob/main/docs/wechat-reward.jpg")],
     },
     "zh": {
@@ -169,10 +169,12 @@ Settings live in Settings › xrhea.""",
 - 每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面
 
 设置在「设置 › xrhea」。""",
-        "rows": [("版本", "0.3.0（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.3.1（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues"), ("赞赏作者（微信）", "/blob/main/docs/wechat-reward.jpg")],
     },
     "changelog": [
+        ("0.3.1 (pre-release)", "Fixed the weekly summary popping up again a few minutes after Monday 9:00, and Background Drain Alert repeating for the same app on the same day.",
+                                "修复每周小结在周一 9:00 之后隔几分钟又弹一次，以及后台耗电提醒同一个 App 同一天重复弹。"),
         ("0.3.0 (pre-release)", "New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.",
                                 "新增日志：24 小时电量曲线、最近 30 天充电记录和充电器实测速度；耗电排查：App 耗电排行、锁屏待机速度和推送重连；Markdown 导出；边充边玩直充和后台耗电提醒；高温保护可单独设无线温度；充电时开启低电量模式；每周小结和直充提醒；点提醒打开相关页面；「试试看」改名「预览」。"),
         ("0.2.0 (pre-release)", "Scheduled full charge; heat protection (stop or intermittent charging); Low Power Mode automation and keeping 120 Hz in Low Power Mode; cleaner settings with sliders and new icons; the update check also finds pre-releases.",
