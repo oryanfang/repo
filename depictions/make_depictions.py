@@ -128,8 +128,10 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - Usage: standby drain, bedtime, high power draw, background drain, weekly summary
 - Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page
 
-Settings live in Settings › xrhea.""",
-        "rows": [("Version", "0.3.2 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+Settings live in Settings › xrhea.
+
+**Known issue:** iPhone 15 Pro / 15 Pro Max sometimes restart with "AOP … low_latency(7) OUTBOX3 not ready". This is an Apple firmware problem that also happens without a jailbreak or tweaks; it is not caused by xrhea. Check About › Restart History; details in the README on GitHub.""",
+        "rows": [("Version", "0.3.3 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues"), ("Donate (WeChat)", "/blob/main/docs/wechat-reward.jpg")],
     },
     "zh": {
@@ -170,11 +172,15 @@ Settings live in Settings › xrhea.""",
 - 用电：锁屏掉电、睡前、高耗电、后台耗电、每周小结
 - 每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面
 
-设置在「设置 › xrhea」。""",
-        "rows": [("版本", "0.3.2（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+设置在「设置 › xrhea」。
+
+**已知问题：** iPhone 15 Pro / 15 Pro Max 偶尔会因「AOP … low_latency(7) OUTBOX3 not ready」自动重启。这是苹果固件的问题，没越狱、没装插件的手机也会遇到，不是 xrhea 引起的。可以在「关于 › 重启记录」里确认原因，详见 GitHub 上的 README。""",
+        "rows": [("版本", "0.3.3（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues"), ("赞赏作者（微信）", "/blob/main/docs/wechat-reward.jpg")],
     },
     "changelog": [
+        ("0.3.3 (pre-release)", "New Restart History in About: boot times and system crash reasons only, with AOP coprocessor crashes labeled as a known Apple firmware issue. The README now documents the occasional AOP restarts on iPhone 15 Pro.",
+                                "关于页新增「重启记录」：只有开机时间和系统崩溃原因，AOP 协处理器崩溃会标注为苹果固件的已知问题。README 标注了 iPhone 15 Pro 系列偶发的 AOP 重启问题。"),
         ("0.3.2 (pre-release)", "New event log (included in Log › Export): charging stopped / resumed, Low Power Mode switches, plug-ins, screen locks and boot time, plus the first line of any new system crash log, to help track down unexpected restarts. New Donate page in About.",
                                 "新增事件日志（「日志 › 导出」里附带）：停充 / 恢复、低电量模式切换、插拔、锁屏和开机时间，以及新出现的系统崩溃日志第一行，用来排查意外重启。关于页新增「捐赠」。"),
         ("0.3.1 (pre-release)", "Fixed the weekly summary popping up again a few minutes after Monday 9:00, and Background Drain Alert repeating for the same app on the same day.",
