@@ -114,6 +114,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - 24-hour battery level chart and 30 days of charging history, each with its own chart
 - Measured speed for each charger, renamable
 - Battery drain: standby drain, usage by app (all / while locked), push reconnects and network wakes
+- Event log of key actions, plug-ins, screen locks, boot time and new crash logs, to track down restarts
 - Export everything as one Markdown file to save or hand to an AI
 
 **Low Power Mode**
@@ -128,7 +129,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
 - Each alert has its own switch and a Preview button; quiet during Focus with your own exceptions; tap to open the related page
 
 Settings live in Settings › xrhea.""",
-        "rows": [("Version", "0.3.1 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.3.2 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues"), ("Donate (WeChat)", "/blob/main/docs/wechat-reward.jpg")],
     },
     "zh": {
@@ -155,6 +156,7 @@ Settings live in Settings › xrhea.""",
 - 24 小时电量曲线、最近 30 天充电记录，每次都有曲线
 - 每个充电器的实测速度，可以改名
 - 耗电排查：锁屏待机速度、App 耗电排行（全部 / 锁屏时）、推送重连和网络唤醒次数
+- 事件日志：关键动作、插拔、锁屏、开机时间和新的崩溃日志，方便排查重启
 - 全部导出成一份 Markdown，可以保存或交给 AI 分析
 
 **低电量模式**
@@ -169,10 +171,12 @@ Settings live in Settings › xrhea.""",
 - 每条单独开关，有「预览」；专注模式时静默，可以自选照常提醒的几条；点提醒打开相关页面
 
 设置在「设置 › xrhea」。""",
-        "rows": [("版本", "0.3.1（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.3.2（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues"), ("赞赏作者（微信）", "/blob/main/docs/wechat-reward.jpg")],
     },
     "changelog": [
+        ("0.3.2 (pre-release)", "New event log (included in Log › Export): charging stopped / resumed, Low Power Mode switches, plug-ins, screen locks and boot time, plus the first line of any new system crash log, to help track down unexpected restarts. New Donate page in About.",
+                                "新增事件日志（「日志 › 导出」里附带）：停充 / 恢复、低电量模式切换、插拔、锁屏和开机时间，以及新出现的系统崩溃日志第一行，用来排查意外重启。关于页新增「捐赠」。"),
         ("0.3.1 (pre-release)", "Fixed the weekly summary popping up again a few minutes after Monday 9:00, and Background Drain Alert repeating for the same app on the same day.",
                                 "修复每周小结在周一 9:00 之后隔几分钟又弹一次，以及后台耗电提醒同一个 App 同一天重复弹。"),
         ("0.3.0 (pre-release)", "New Log: 24-hour battery chart, 30 days of charging history and measured charger speeds; Battery Drain: usage by app, standby drain and push reconnects; Markdown export; Bypass While Gaming and Background Drain Alert; separate wireless heat-protection temperature; Low Power Mode while charging; weekly summary and Bypass alerts; tap an alert to open the related page; Try It is now Preview.",
