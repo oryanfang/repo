@@ -131,7 +131,7 @@ Settings live in Settings › xrkit; some options need a respring.""",
 Settings live in Settings › xrhea.
 
 **Known issue:** iPhone 15 Pro / 15 Pro Max sometimes restart with "AOP … low_latency(7) OUTBOX3 not ready". This is an Apple firmware problem that also happens without a jailbreak or tweaks; it is not caused by xrhea. Check About › Restart History; details in the README on GitHub.""",
-        "rows": [("Version", "0.3.3 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
+        "rows": [("Version", "0.3.4 (pre-release)"), ("Supported iOS", "iOS 17 (tested on 17.3.1)"), ("Jailbreak", "roothide"), ("Author", "xyrith")],
         "buttons": [("Source Code", ""), ("Report an Issue", "/issues"), ("Donate (WeChat)", "/blob/main/docs/wechat-reward.jpg")],
     },
     "zh": {
@@ -175,10 +175,12 @@ Settings live in Settings › xrhea.
 设置在「设置 › xrhea」。
 
 **已知问题：** iPhone 15 Pro / 15 Pro Max 偶尔会因「AOP … low_latency(7) OUTBOX3 not ready」自动重启。这是苹果固件的问题，没越狱、没装插件的手机也会遇到，不是 xrhea 引起的。可以在「关于 › 重启记录」里确认原因，详见 GitHub 上的 README。""",
-        "rows": [("版本", "0.3.3（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
+        "rows": [("版本", "0.3.4（预览版）"), ("适用系统", "iOS 17（只在 17.3.1 测过）"), ("越狱环境", "roothide"), ("作者", "xyrith")],
         "buttons": [("源代码", ""), ("反馈问题", "/issues"), ("赞赏作者（微信）", "/blob/main/docs/wechat-reward.jpg")],
     },
     "changelog": [
+        ("0.3.4 (pre-release)", "New Charging Self-Test in About that tells you whether the plug-in alert works and why not; plug-in alert steps in the event log and recent records in Copy Debug Info; stuck alerts close after 20 seconds. Fixed Low Power Mode turning off on unlock while charging when both lock and charging rules are on.",
+                                "关于页新增「插电自检」，直接告诉你插电提醒是否正常、没弹的原因；事件日志记下插电提醒的每一步，「复制问题信息」带上最近记录；卡住的提示 20 秒后自动收起。修复同时开着锁屏和充电两条规则时，插着电解锁会关掉低电量模式。"),
         ("0.3.3 (pre-release)", "New Restart History in About: boot times and system crash reasons only, with AOP coprocessor crashes labeled as a known Apple firmware issue. The README now documents the occasional AOP restarts on iPhone 15 Pro.",
                                 "关于页新增「重启记录」：只有开机时间和系统崩溃原因，AOP 协处理器崩溃会标注为苹果固件的已知问题。README 标注了 iPhone 15 Pro 系列偶发的 AOP 重启问题。"),
         ("0.3.2 (pre-release)", "New event log (included in Log › Export): charging stopped / resumed, Low Power Mode switches, plug-ins, screen locks and boot time, plus the first line of any new system crash log, to help track down unexpected restarts. New Donate page in About.",

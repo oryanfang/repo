@@ -112,6 +112,25 @@ Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/icon.png
 Name: xrhea
 Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/depiction.json
 
+Package: com.xyrith.xrhea
+Version: 0.3.4
+Architecture: iphoneos-arm64e
+Maintainer: xyrith
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.xyrith.xrhea_0.3.4_iphoneos-arm64e.deb
+Size: 298682
+MD5sum: 85c5e6a1544fc5cfa2137f54a3aeadff
+SHA1: 6175d862f4bffd7152e4f8b44fad28e6f28938ac
+SHA256: 89dde69f73261c2bd806411c818864dbd42b9270142de00ce5d22b642a4a5bdd
+Section: Tweaks
+Description: Battery and charging tweak for iOS 17: detailed battery info, a charge limit with scheduled full charge, a battery log (charging history, 24-hour level chart, per-app drain, push reconnects, Markdown export), heat protection and bypass charging, Low Power Mode automation with 120 Hz kept, and Dynamic Island alerts. Only tested on iOS 17.3.1; requires a roothide jailbreak.
+Author: xyrith
+Depiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/
+Icon: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/icon.png
+Name: xrhea
+Sileodepiction: https://oryanfang.github.io/repo/depictions/com.xyrith.xrhea/depiction.json
+
 Package: com.xyrith.xrkit
 Version: 0.2.0
 Architecture: iphoneos-arm64e

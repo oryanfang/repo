@@ -47,7 +47,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.3.3 (pre-release)"
+     "text": "0.3.4 (pre-release)"
     },
     {
      "class": "DepictionTableTextView",
@@ -125,7 +125,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "0.3.3（预览版）"
+     "text": "0.3.4（预览版）"
     },
     {
      "class": "DepictionTableTextView",
@@ -163,6 +163,15 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "0.3.4 (pre-release)",
+     "useBoldText": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "New Charging Self-Test in About that tells you whether the plug-in alert works and why not; plug-in alert steps in the event log and recent records in Copy Debug Info; stuck alerts close after 20 seconds. Fixed Low Power Mode turning off on unlock while charging when both lock and charging rules are on.\n\n关于页新增「插电自检」，直接告诉你插电提醒是否正常、没弹的原因；事件日志记下插电提醒的每一步，「复制问题信息」带上最近记录；卡住的提示 20 秒后自动收起。修复同时开着锁屏和充电两条规则时，插着电解锁会关掉低电量模式。"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "0.3.3 (pre-release)",
